@@ -45,7 +45,5 @@
     	echo $satr['color'].'|'.$satr['status'];
    } 
  
-    /* $ch = new check();	  
-	 $satr = $ch->get_status_today(1);
-     print_r($satr);*/
+    
 ?>
