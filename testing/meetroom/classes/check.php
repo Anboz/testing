@@ -11,7 +11,7 @@
       $db = new DB("db_meetingroom");
   	   $status = ['color'=>'green',
   	    		'status'=>'Свабодно',
-  	    		'name'=>''];
+  	    		'name'=>'fjhgkfngjksdgs'];
        $minFtimeTtime = $db->selectInfo("SELECT MIN(fromtime) AS mft, MIN(totime) AS mtt FROM tbl_bron_room WHERE id = '".$id."' AND fromdate = CAST('".date('Y-m-d')."' AS DATE)");
               
   	    if($minFtimeTtime[0]['mft']!= ''){
